@@ -10,7 +10,7 @@ def mouse_callback(event, x, y, flags, params):
         print (right_clicks)
 
 
-img = cv2.imread('F:/Aspire/3.2.2021/corn.jpeg', cv2.IMREAD_UNCHANGED)
+img = cv2.imread('corn.jpeg', cv2.IMREAD_UNCHANGED)
 print(img.shape)
 
 Gray_Image =cv2.cvtColor(img,cv2.COLOR_BGR2GRAY) 
